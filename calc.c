@@ -55,11 +55,11 @@ int operation(choice,num1,num2){
         printf("%d - %d = %d\n",num1,num2,num1-num2);
     }
     else if (choice==3){
-        res = num1-num2;
+        res = num1*num2;
         printf("%d * %d = %d\n",num1,num2,num1*num2);
     }
     else if (choice==4){
-        res = num1-num2;
+        res = num1/num2;
         printf("%d / %d = %d\n",num1,num2,num1/num2);
     }
     else{
